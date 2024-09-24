@@ -9,7 +9,7 @@ const Positions = () => {
   const [allPositions, setallPositions] = useState([]);
 
   useEffect( () =>{
-    axios.get("http://localhost:3002/allPositions").then((res) => {
+    axios.get("https://stock-backend-v9q3.onrender.com").then((res) => {
 
       setallPositions(res.data);
     });
