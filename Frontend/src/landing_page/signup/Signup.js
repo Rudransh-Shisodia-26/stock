@@ -35,7 +35,7 @@ const Signup = () => {
       // console.log("name : ", formData.name);
       // console.log("password : ", formData.password);
 
-      const res = await fetch( `http://localhost:3002/api/auth/register`,{
+      const res = await fetch( `https://stock-backend-v9q3.onrender.com`,{
 
          method: "POST",
          headers: { "Content-Type": "application/json" },
